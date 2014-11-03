@@ -1,0 +1,30 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "html5shiv": "~3.7",
+    "respond": "~1.4",    
+    "jquery": "<2",    
+    "angular": "~1.2",
+    "angular-resource": "~1.2",
+    "angular-animate": "~1.2",
+    "angular-sanitize": "~1.2",
+    "angular-resource": "~1.2",
+    "angular-cookies": "~1.2", 
+    "angular-mocks": "~1.2",
+    "angular-ui-router": "~0.2",
+    "less": "^1.7.0",
+    "moment": "^2.5.1",
+    "mrwhite-less-mixins": "^0.1.0",
+    "bootstrap": "~3.1",    
+    "font-awesome": "~4.0",
+    "sweetalert": "~0.1",    
+    "matchmedia-ng": "~1.0"
+  }
+}
